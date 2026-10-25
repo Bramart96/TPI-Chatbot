@@ -1,4 +1,4 @@
- # TPI — Chatbot Gestión de Licencias
+# Gestión de solicitudes de vacaciones — Python
 ## Organización Empresarial | UTN — Tecnicatura Universitaria en Programación
 
 Simulador de consola para gestión de solicitudes de licencias y vacaciones,
@@ -16,7 +16,7 @@ desarrollado como Trabajo Práctico Integrador de la materia Organización Empre
 
 ## Estructura del repositorio
 
-tpi-chatbot-licencias/
+gestion-solicitudes-vacaciones/
 ├── src/Python/          → Código fuente del simulador
 ├── data/Base_Datos/     → Archivo Excel y diseño de base de datos
 ├── data/Datos/          → Diccionario de datos, gestión de estados y casos de prueba
@@ -119,8 +119,8 @@ y se realizó un nuevo commit en CVU-8 documentando el cambio.
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/Bramart96/TPI-Chatbot.git
-   cd TPI-Chatbot
+   git clone https://github.com/Bramart96/gestion-solicitudes-vacaciones.git
+   cd gestion-solicitudes-vacaciones
    ```
 
 2. Instalar dependencias:
