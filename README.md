@@ -110,9 +110,51 @@ relevante, dado que la estructura de datos ya se encuentra documentada en
 y se realizó un nuevo commit en CVU-8 documentando el cambio.
 
 ## Instalación y ejecución
+
+### Requisitos
+- Python 3
+- pip
+
+### Instrucciones
+
 1. Clonar el repositorio:
-   `git clone https://github.com/Bramart96/tpi-chatbot-licencias.git`
+   ```bash
+   git clone https://github.com/Bramart96/TPI-Chatbot.git
+   cd TPI-Chatbot
+   ```
+
 2. Instalar dependencias:
-   `pip install -r requirements.txt`
+   ```bash
+   python -m pip install -r requirements.txt
+   ```
+
 3. Ejecutar el simulador:
-   `python src/Python/chatbot_vacaciones.py`
+   ```bash
+   python src/Python/chatbot_vacaciones.py
+   ```
+
+## Validación funcional
+
+Pruebas manuales realizadas en Windows con Python 3:
+
+- Lectura de empleados desde Excel: correcta.
+- Búsqueda de empleado por legajo: correcta.
+- Aprobación de solicitud con saldo suficiente: correcta.
+- Descuento de días disponibles: correcto.
+- Persistencia de los cambios en el archivo Excel: verificada.
+
+**Caso probado:** legajo 1001, solicitud de 4 días,
+saldo restante de 6 días.
+
+**Pendiente de prueba manual:** solicitudes rechazadas,
+legajos inexistentes y entradas inválidas.
+
+**Alcance:** prototipo académico de consola con
+persistencia local mediante Excel; no es una
+aplicación desplegada en producción.
+
+## Evidencia de funcionamiento
+
+### Solicitud de vacaciones aprobada
+
+![Solicitud aprobada](screenshots/solicitud_aprobada.png)
