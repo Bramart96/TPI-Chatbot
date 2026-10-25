@@ -17,8 +17,8 @@ from pathlib import Path
 # CONFIGURACIÓN
 # ----------------------------------
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-ARCHIVO_EXCEL = BASE_DIR / "Base_Datos" / "base_datos_vacaciones.xlsx"
+BASE_DIR = Path(__file__).resolve().parents[2]
+ARCHIVO_EXCEL = BASE_DIR / "data" / "Base_Datos" / "base_datos_vacaciones.xlsx"
 
 HOJA_EMPLEADOS = "empleados"
 HOJA_SOLICITUDES = "solicitudes"
